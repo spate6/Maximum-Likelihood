@@ -1,2 +1,2 @@
 # Maximum-Likelihood
-In this Notebook we will use Maximum Likelihood Estimation to fit a Laplace distribution to a toy dataset which is meant to illustrate geyser eruption times vs. waiting times
+In this Notebook we will use Maximum Likelihood Estimation to fit a Laplace distribution to a toy dataset which is meant to illustrate geyser eruption times vs. waiting times. Assuming an exponential model ($\hat{y}=\exp(\mathbf{Xb}$)) rather than our previous linear model ($\hat{y}=\mathbf{Xb}$). Here again we will find optimal values for $\mathbf{b}$. However, unlike our previous work, instead of finding a parameter $\mathbf{b}$ which minimizes a loss function, we will find a $\mathbf{b}$ *which maximizes the Laplace Log Likelihood*.
